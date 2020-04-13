@@ -2,14 +2,19 @@ import React from "react";
 import "./Styles/Header.css";
 import AddSG from "../Images/AddSG.png";
 
-class Header extends React.Component {
+export class Header extends React.Component {
+  addNewSavingGoal() {}
+
   render() {
     return (
       <div>
-        <img className="image" src={AddSG} alt="Agregar objetivo de ahorro" />
+        <img
+          className="image"
+          src={AddSG}
+          alt="Agregar objetivo de ahorro"
+          onClick={this.addNewSavingGoal}
+        />
       </div>
     );
   }
 }
-
-export default Header;

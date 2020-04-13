@@ -1,6 +1,6 @@
 import React from "react";
 import "./Styles/MainContainer.css";
-import Header from "./Header";
+import { Header } from "./Header";
 import SavingGoalContainer from "./SavingGoalContainer";
 import InformationContainer from "./InformationContainer";
 import Footer from "./Footer";

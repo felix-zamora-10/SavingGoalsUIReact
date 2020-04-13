@@ -1,0 +1,80 @@
+label {
+  margin: 5px;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  width: 80%;
+}
+
+input[type="date"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  width: 80%;
+}
+
+input[type="button"] {
+  background-color: #1e8bba;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-decoration: none;
+  margin: 5px 5px;
+  cursor: pointer;
+  width: 75px;
+}
+
+input[type="button"]:hover {
+  opacity: 0.7;
+}
+
+.information-panel {
+  border: #1e8bba;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.collapsible {
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+.collapsible:hover {
+  opacity: 0.7;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+.td-label {
+  width: 30%;
+  text-align: right;
+}
+
+.td-text {
+  width: 70%;
+  text-align: left;
+}
