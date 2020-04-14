@@ -19,10 +19,12 @@
 .grid-saving-goal-container {
   grid-column-start: 1;
   grid-column-end: 4;
+  overflow: auto;
 }
 .grid-information-container {
   grid-column-start: 1;
   grid-column-end: 4;
+  overflow: auto;
 }
 .grid-footer-container {
   grid-column-start: 1;

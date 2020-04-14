@@ -1,10 +1,11 @@
 import React from "react";
+import SavingGoal from "./SavingGoal";
 
 class SavingGoalContainer extends React.Component {
   render() {
     return (
       <div>
-        <h1>Contenedor de objetivo de ahorro</h1>
+        <SavingGoal />
       </div>
     );
   }
